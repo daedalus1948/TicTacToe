@@ -141,7 +141,8 @@ void play_game (int friend, int enemy, int entity[][LENGTH]) {
     }
   }
 
-int main() {
+/* main could accept LENGTH and FRIEND/ENEMY arguments in the future */
+int main(void) {
   srand(time(NULL)); /* generate a seed for pseudo-random calculations once a game */
   int board[LENGTH][LENGTH] = {0};
   play_game(PLAYER, ENEMY, board); /* start the game */
