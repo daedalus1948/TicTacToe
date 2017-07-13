@@ -2,6 +2,7 @@
 Minimax algorithm for enemy AI not implemented
 Optional player input not implemented
 Many functions contain a generic nested for loop iterating over the board data structure - Consider creating a separate function for this
+KNOWN ISSUES - find_free_moves function could be simplified, temp_index is not necesarry, 77 array prefill aswell
 */
 #include <stdio.h>
 #include <stdlib.h>
