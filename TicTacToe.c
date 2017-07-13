@@ -75,7 +75,7 @@ int* find_free_moves (int leng, int entity[][LENGTH]) {
   int temp_index = 0;
   int empty;
   /* calcuate the size of malloced array - *2 because storing x,y */
-  count = ((get_free_move_count(leng, entity))*2); /* last two array indices are for [array_length, 77(end of array)] */
+  count = ((get_free_move_count(leng, entity))*2);
   /* create a 1D contiguous array for pseudo 2D access */
   temp = malloc(sizeof(int) * count+1); /* CHECK IF TEMP NOT NULL!!!!!! */
   /*prefill the malloc array with arbitrary 77, later check if [0] is not 77 to determine whether array is "empty" (77 == EMPTY)*/
