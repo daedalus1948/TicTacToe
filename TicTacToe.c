@@ -93,7 +93,7 @@ int* find_free_moves (int leng, int entity[][LENGTH]) {
       }
     }
   }
-  /* every ODD index + 1 (eg 0,1-2,LENGTH-LENGTH,4 etc) storex x,y coordinates of a free move */
+  /* every ODD index + 1 (eg 0-1,2-3,4-5,5-6 etc) storex x,y coordinates of a free move */
   return temp;
 }
 
