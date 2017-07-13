@@ -6,7 +6,7 @@ Many functions contain a generic nested for loop iterating over the board data s
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* board is a square matrix, therefore only one size information is neccesary - "leng" */
+/* board is a square matrix, therefore only one size information is neccesary - "LENGTH" */
 /* BOARD DIMENSIONS CAN BE ALTERED!! */
 #define LENGTH 3 /* for board length purposes */
 #define PLAYER 4
