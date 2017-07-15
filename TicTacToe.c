@@ -134,7 +134,6 @@ void play_game (int friend, int enemy, int entity[][LENGTH]) {
         evaluate_board(LENGTH, entity, turn);
         turn = (turn == enemy) ? friend : enemy;
     }
-    return 0;
   }
 
 /* main could accept LENGTH and FRIEND/ENEMY arguments in the future */
