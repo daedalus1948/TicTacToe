@@ -132,12 +132,7 @@ void play_game (int friend, int enemy, int entity[][LENGTH]) {
         update_state(entity, turn, generate_move(LENGTH,entity));
         show_board(LENGTH, entity);
         evaluate_board(LENGTH, entity, turn);
-        if (turn == enemy) {
-            turn = friend;
-          }
-        else {
-            turn = enemy;
-          }
+        turn = (turn == enemy) ? friend : enemy;
     }
   }
 
